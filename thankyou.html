@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>You're Booked — Growthlink</title>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--navy:#0f1a2e;--blue:#3b82f6;--blue-dark:#2563eb;--green:#10b981;--gray:#f1f5f9;--gray2:#e2e8f0;--gray3:#94a3b8;--white:#fff;--text:#1e293b;--radius:10px}
+body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;color:var(--text);line-height:1.6;background:var(--navy);min-height:100vh;display:flex;flex-direction:column}
+.container{max-width:1120px;margin:0 auto;padding:0 24px}
+nav{padding:16px 0}
+nav .container{display:flex;align-items:center}
+.logo{font-size:1.35rem;font-weight:800;color:var(--white);letter-spacing:-.5px}
+.logo span{color:var(--blue)}
+
+.ty-hero{flex:1;display:flex;align-items:center;justify-content:center;padding:48px 24px;text-align:center;color:var(--white)}
+.ty-card{max-width:620px;margin:0 auto}
+.ty-icon{width:80px;height:80px;border-radius:50%;background:var(--green);display:inline-flex;align-items:center;justify-content:center;font-size:2.2rem;margin-bottom:24px}
+.ty-card h1{font-size:2.2rem;font-weight:800;margin-bottom:12px}
+.ty-card h1 span{color:var(--blue)}
+.ty-card p.lead{font-size:1.1rem;color:#cbd5e1;margin-bottom:32px}
+
+.next-steps{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);border-radius:14px;padding:28px 32px;text-align:left;margin-bottom:32px}
+.next-steps h2{font-size:1.1rem;font-weight:700;margin-bottom:16px;color:var(--white)}
+.next-steps ol{padding-left:20px;color:#cbd5e1}
+.next-steps li{margin-bottom:10px;font-size:.92rem}
+.next-steps li strong{color:var(--white)}
+
+.ty-cta{display:inline-block;background:var(--blue);color:var(--white);padding:14px 36px;border-radius:var(--radius);font-weight:700;font-size:1rem;transition:background .2s;margin-bottom:12px}
+.ty-cta:hover{background:var(--blue-dark)}
+.ty-sub{font-size:.82rem;color:var(--gray3)}
+
+footer{background:rgba(0,0,0,.2);color:var(--gray3);padding:24px 0;text-align:center;font-size:.82rem}
+
+@media(max-width:480px){
+  .ty-card h1{font-size:1.6rem}
+  .next-steps{padding:20px}
+}
+</style>
+</head>
+<body>
+
+<nav>
+<div class="container">
+  <div class="logo">Growth<span>link</span></div>
+</div>
+</nav>
+
+<section class="ty-hero">
+<div class="ty-card">
+  <div class="ty-icon">✓</div>
+  <h1>You're All <span>Set!</span></h1>
+  <p class="lead">Your strategy call is confirmed. Check your inbox for a calendar invite with the meeting link and details.</p>
+
+  <div class="next-steps">
+    <h2>What Happens Next</h2>
+    <ol>
+      <li><strong>Check your email</strong> — You'll receive a confirmation with the Zoom link and a short pre-call questionnaire.</li>
+      <li><strong>Complete the questionnaire</strong> — The more we know upfront, the more value we can pack into our 30 minutes together.</li>
+      <li><strong>Show up ready</strong> — Have a rough idea of your monthly marketing budget, current traffic numbers, and your #1 growth goal.</li>
+      <li><strong>Get your custom plan</strong> — On the call, we'll walk you through a tailored growth roadmap you can implement right away.</li>
+    </ol>
+  </div>
+
+  <a href="index.html" class="ty-cta">← Back to Homepage</a>
+  <p class="ty-sub">Questions before the call? Email us at <strong>ray@growthlink.me</strong></p>
+</div>
+</section>
+
+<footer>
+<div class="container">
+  <p>&copy; 2025 Growthlink. All rights reserved.</p>
+</div>
+</footer>
+
+</body>
+</html>
