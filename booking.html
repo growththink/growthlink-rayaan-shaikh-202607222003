@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Book Your Strategy Call — Growthlink</title>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--navy:#0f1a2e;--blue:#3b82f6;--blue-dark:#2563eb;--green:#10b981;--gray:#f1f5f9;--gray2:#e2e8f0;--gray3:#94a3b8;--white:#fff;--text:#1e293b;--radius:10px}
+body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;color:var(--text);line-height:1.6;background:var(--gray)}
+.container{max-width:1120px;margin:0 auto;padding:0 24px}
+nav{background:var(--navy);padding:16px 0}
+nav .container{display:flex;align-items:center;justify-content:space-between}
+.logo{font-size:1.35rem;font-weight:800;color:var(--white);letter-spacing:-.5px}
+.logo span{color:var(--blue)}
+nav a.back{color:var(--gray3);font-size:.9rem}
+nav a.back:hover{color:var(--white)}
+
+.booking-wrapper{max-width:900px;margin:48px auto;display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start}
+.booking-info{padding:8px 0}
+.booking-info h1{font-size:1.9rem;font-weight:800;margin-bottom:12px;line-height:1.2}
+.booking-info h1 span{color:var(--blue)}
+.booking-info p{color:var(--gray3);margin-bottom:20px;font-size:.95rem}
+.checklist{list-style:none;margin-bottom:24px}
+.checklist li{padding:8px 0;font-size:.92rem;display:flex;align-items:flex-start;gap:10px}
+.checklist li::before{content:'✓';color:var(--green);font-weight:700;font-size:1rem;flex-shrink:0}
+.note-box{background:var(--white);border-left:4px solid var(--blue);padding:16px 18px;border-radius:0 var(--radius) var(--radius) 0;font-size:.85rem;color:var(--gray3)}
+
+.calendar-placeholder{background:var(--white);border-radius:14px;padding:36px 28px;box-shadow:0 4px 20px rgba(0,0,0,.06);text-align:center}
+.calendar-placeholder .cal-icon{font-size:3rem;margin-bottom:12px}
+.calendar-placeholder h2{font-size:1.15rem;font-weight:700;margin-bottom:8px}
+.calendar-placeholder p{font-size:.88rem;color:var(--gray3);margin-bottom:20px}
+/* Placeholder for real Calendly / GHL calendar embed */
+.cal-embed{width:100%;min-height:320px;background:var(--gray);border:2px dashed var(--gray2);border-radius:var(--radius);display:flex;align-items:center;justify-content:center;color:var(--gray3);font-size:.9rem}
+
+footer{background:var(--navy);color:var(--gray3);padding:32px 0;text-align:center;font-size:.82rem;margin-top:64px}
+
+@media(max-width:768px){
+  .booking-wrapper{grid-template-columns:1fr;gap:28px;margin:32px auto}
+}
+</style>
+</head>
+<body>
+
+<nav>
+<div class="container">
+  <div class="logo">Growth<span>link</span></div>
+  <a href="index.html" class="back">← Back to Home</a>
+</div>
+</nav>
+
+<div class="container">
+<div class="booking-wrapper">
+
+  <div class="booking-info">
+    <h1>Let's Map Out Your <span>Growth Plan</span></h1>
+    <p>Pick a time that works for you. This is a free, no-obligation strategy session where we'll dig into your business and identify the fastest path to more revenue.</p>
+    <ul class="checklist">
+      <li>Audit your current funnel &amp; website</li>
+      <li>Identify your highest-leverage growth channel</li>
+      <li>Outline a 90-day action plan customized to your goals</li>
+      <li>Get honest feedback — even if we're not the right fit</li>
+      <li>No hard selling, no pressure</li>
+    </ul>
+    <div class="note-box">
+      <strong>Heads up:</strong> Calls typically last 25–30 minutes. Please come prepared with a brief overview of your current marketing and your primary growth goal.
+    </div>
+  </div>
+
+  <div class="calendar-placeholder">
+    <div class="cal-icon">📅</div>
+    <h2>Choose a Date &amp; Time</h2>
+    <p>Select a slot below to book your free strategy call.</p>
+    <!-- Replace this div with your Calendly, GHL, or scheduling embed -->
+    <div class="cal-embed">
+      <!-- IMPLEMENTATION NOTE: Embed your scheduling widget here, e.g.
+      <iframe src="https://calendly.com/your-link" width="100%" height="100%" frameborder="0"></iframe>
+      -->
+      Calendar embed will appear here
+    </div>
+  </div>
+
+</div>
+</div>
+
+<footer>
+<div class="container">
+  <p>&copy; 2025 Growthlink. All rights reserved.</p>
+</div>
+</footer>
+
+</body>
+</html>
